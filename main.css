@@ -1,8 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+                
 body {
     background-image: url(Patrón\,\ Graphic\,\ La\ Luz\ Imágenes\ de\ fondo\ gratuitas\,\ Diseño\ Arte\ Fondos\ De\ Pantalla\ Textura\ Antecedentes\ Foto\ de\ fondo\ PNG\ y\ vectores.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   overflow-y: scroll;
+
 }
-.navigationbar {
-    background-color: brown;
-    width: 500in;
-    height: 500in;
+#navigationbar {
+    background-color: rgba(165, 11, 11, 0.468);
+    width: 15.6in;
+    height: 1.1in;
+    font-family: 'Ferro Rosso', sans-serif;
+    position: absolute;
+
+}
+.Home {
+  color: yellow;
+  margin-left: 150px;
+  margin-top: 25px;
+  font-size-adjust: 2;
+  display: flex;
+text-decoration: none;
+}
+.FerrariLogo {
+    width: 100px;
+    height: 100px;
+    margin-top: -72px;
+
+}
+.Info {
+    color: yellow;
+  margin-left: 325px;
+  margin-top: -81px;
+  font-size-adjust: 2;
+  display:flex;
+  text-decoration: none;
+}
+.Products {
+    color: yellow;
+  margin-left: 475px;
+  margin-top: -48px;
+  font-size-adjust: 2;
+  text-decoration: none;
+  display: flex;
+}
+.SignUp {
+    color: yellow;
+  margin-left: 1325px;
+  margin-top: -50px;
+  display: flex;
+  font-size-adjust: 2;
+  text-decoration: none;
+}
+#navigationbar2 {
+    background-color: rgba(84, 4, 4, 0.314);
+    width: 15.6in;
+    height: 11in;
+    margin-top: 106px;
+    position: absolute;
+}
+     
+@keyframes popUp {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+    
+.TheHome {
+    font-family: '';
+    color: rgb(255, 195, 0);
+    text-align: center;
+    font-size: 100px;
+    animation: popUp 5s ease-out;
+}
+.Ferrari {
+    width: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+#navigationbar3 {
+    background-color: rgba(84, 4, 4, 0.314);
+    width: 15.6in;
+    height: 9in;
+    margin-top: 1162px;
+    position: absolute;
+}
+.Products1 {
+    color: rgb(255, 195, 0);
+    margin-left: 200px;
+    margin-top: -10px;
+    font-size: 200px;
+    font-family: 'Blade Runner Movie Font', sans-serif;
+    text-shadow: 0px 10px 10px black;
+    
+}
+.ferraricar {
+    margin-left: -100px;
+    margin-top: -250px;
+}
+.SF25 {
+    color: rgb(255, 255, 255);
+    margin-left: 800px;
+    margin-top: -100px;
+    font-size: 25px;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+                                                
+}
+#navigationbar4 {
+    background-color: rgba(84, 4, 4, 0.314);
+    width: 15.6in;
+    height: 8in;
+    margin-top: 2026px;
+    position: absolute;
+}
+.ferrarilogo {
+    width: 500px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.FerrariInfo {
+    color: rgb(255, 255, 255);
+    margin-left: 600px;
+    margin-top: -450px;
+    font-size: 50px;
+    position: absolute;
+    font-family: 'Drius 3D', sans-serif;
+    text-align:left;
+}
+.lastnavigationbar {
+    background-color: rgba(165, 11, 11, 0.468);
+    width: 15.6in;
+    height: 2.5in;
+    margin-top: 2794px;
+    position: absolute;
+}
+.final {
+    color: yellow;
+    font-family:'Ferro Rosso', sans-serif ;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.finalferrarilogo {
+    width: 200px;
+    height: 200px;
+    margin-top: -75px;
+    margin-left: 1200px;
+}
+.companyname {
+    color: rgb(201, 201, 9);
+    font-family:'Ferro Rosso', sans-serif ;
+    font-size: 40px;
+    margin-left: 1175px;
+    margin-top: -5px;
+}
+.tiktok {
+    width: 150px;
+    height: 150px;  
+    margin-left: 50px;
+    margin-top: -200px;
+    display: flex;
+}
+.facebook {
+    width: 250px;
+    height: 150px;  
+    margin-left: 150px;
+    margin-top: -150px;
+    display: flex;
+}
+.instagram {
+    width: 200px;
+    height: 150px;  
+    margin-left: 350px;
+    margin-top: -150px;
+    display: flex;
+}
+.contact {
+    color: yellow;
+    font-size: 15px;
+    font-family: 'Chivo Mono', sans-serif;                           
+    margin-top: -80px;
+    margin-left: 550px;
+}
+.arrow {
+    width: 200px;
+}
+.WebsiteName {
+    font-family:'Ferro Rosso', sans-serif ;
+    color: yellow;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 170px;
+    margin-top: -90px;
+}
+.logodeferrari {
+    width: 100px;
+    margin-left: 450px;
+    margin-top: -170px;
+    display: flex;
+}
+.layout {
+    background-color: rgba(125, 19, 19, 0.597);
+    width: 8in;
+    height: 10in;
+    margin-left: 740px;
+    position: absolute;
+}
+.inputEmail {
+    margin-top: 150px;
+    width: 400px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    display: flex;
+}
+.inputPassword {
+    margin-top: 50px;
+    width: 400px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: justify;
+    display: flex;
+}
+.InputConfirmPassword {
+    margin-top: 50px;
+    width: 400px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+}
+.signUp {
+    background-color: rgba(93, 5, 5, 0.512);
+    color: yellow;
+    font-family:'Ferro Rosso', sans-serif ;
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.signUptext {
+    color: yellow;
+    display: flex;
+    margin-left: 250px;
+    margin-top: -450px;
+    font-size: 100px;
+    font-family: 'Ferro Rosso', sans-serif;
+}
+.ferrarirightlogo {
+    display: flex;
+    width: 550px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
